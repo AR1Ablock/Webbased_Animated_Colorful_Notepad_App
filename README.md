@@ -27,3 +27,6 @@ Note:
 * **As a beginner this one is from few of my projects.**
 
 * **Feel free to use and modify.**
+
+**link to deployed app.**
+https://colorfulnotepaddapp.web.app/
