@@ -1,18 +1,16 @@
 <template>
   <div class="wrapper">
-    <div class="searchbar">
+    <div class="loading" v-if="Loading"> <h1>Notes</h1><p></p></div>
+    <div class="searchbar" :class="{ 'active': isAddBtnPressed }">
       <div @click="showInput()"><img src="../public/search.png" alt=""></div>
       <input class="searchinput" type="text" name="" id="" placeholder="Search Notes" :class="{ 'showinput2': searchinput }"
-        v-model.trim="inputData">
-    </div>
-    <div class="btn-head_con" :class="{ 'active': isAddBtnPressed }">
-      <h1 class="notesheading">Notes</h1>
+        v-model.trim="inputData">   
       <button @click="AddNoteBtn" class="addbtn">+</button>
     </div>
 
     <div class="card_con" :class="{ 'active': isAddBtnPressed }">
 
-      <div class="cards" style="background-color: rgba(0, 119, 255, 0.804);" v-for="(item, index) in data" :key="index"
+      <div class="cards" v-for="(item, index) in data" :key="index"
         :class="{ 'smoothhide': IsCardDeletedBtnPressed === data[index].isCardGoingDeleted }"
         :style="{ 'background-color': data[index].color }">
         <div class="Title_Con" :style="{ 'background-color': data[index].CardTitleColor }">
@@ -69,6 +67,7 @@ let CurrentlyWritingTitle = ref("");
 let focusOnInput = ref('');
 let searchinput = ref(false);
 let inputData = ref('');
+let Loading = ref(true);
 
 /* ............................. Sounds ............................ */
 import addbtn from '../public/effects/addbtn.mp3';
@@ -108,6 +107,15 @@ function showInput() {
     console.log(error.message);
   }
 }
+
+
+setTimeout(() => {
+  document.querySelector('.loading').classList.add('active');
+}, 800);
+
+setTimeout(() => {
+  Loading.value = false;
+}, 1300);
 
 
 
@@ -239,7 +247,6 @@ function DoneBtn() {
         let formattedDate = currentDate.toLocaleDateString();
         let gettingColor = generateRandomColor();
         let result = gettingColor.slice(0, -4) + '1.0)';
-        console.log('coard cololr', gettingColor, 'title', result)
         //.................................. Object For Array To Make New Cards .................................
         let userinputdata = {
           title: CurrentlyWritingTitle.value,
@@ -334,7 +341,6 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.cards').forEach((card) => {
         let title = card.querySelector('.Card_Title').textContent.toLowerCase().trim();
         let Description = card.querySelector('.Card_Para').textContent.toLowerCase().trim();
-        console.log(data, title, Description);
         if (title.includes(data) || Description.includes(data) || inputData.value == '') {
           card.classList.remove('searchItemSmoothlyHide');
           card.style.display = 'flex';
@@ -366,9 +372,9 @@ let data = ref([
     userWrote: "Hello There, Welcome To Simple Colorful Notes Making Web App.",
     NotesDate: "2/07/2023",
     isCardGoingDeleted: false,
-    color: 'rgba(0, 197, 255, 0.6)',
+    color: 'rgba(17, 0, 255, 0.6)',
     id: 10102,
-    CardTitleColor: 'rgba(0, 197, 255, 1.0)'
+    CardTitleColor: 'rgba(17, 0, 255, 1.0)'
   }
 ]);
 

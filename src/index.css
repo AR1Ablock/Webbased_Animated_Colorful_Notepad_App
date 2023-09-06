@@ -4,6 +4,15 @@ body {
     background-image: url(../public/top-view-notebook-with-headphones-leaves-desk.jpg);
     background-repeat: repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0; 
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
@@ -12,7 +21,7 @@ button {
 }
 
 /* Overlay */
-.btn-head_con.active,
+.searchbar.active,
 .card_con.active {
     opacity: .1;
     pointer-events: none;
@@ -64,9 +73,9 @@ button {
     }
 }
 
-@media (max-width: 1000px) {
-    .searchinput {
-        margin: 0px 0vmin 0px 2vmin !important;
+@media (max-width: 1100px) {
+    .showinput{
+        width: 80% !important;
     }
 }
 
@@ -77,6 +86,10 @@ button {
 @media (max-width: 768px) {
     .searchinput {
         font-size: 3.5vmin !important;
+    }
+
+    .showinput{
+        width: 75% !important;
     }
 
     .searchbar input:focus {
@@ -96,17 +109,9 @@ button {
         margin: 1vmin;
     }
 
-    .card_con {
-        margin: -3% !important;
-    }
-
     .btn-head_con * {
         font-size: 7vmin !important;
         margin: .5vmin 0 !important;
-    }
-
-    .addbtn {
-        transform: translateY(-3.5vmin) !important;
     }
 
     .Card_Title {
@@ -271,7 +276,6 @@ button {
     gap: 2vmin;
     position: relative;
     top: 4vmin;
-    left: 5%;
 }
 
 .notesheading {
@@ -283,17 +287,15 @@ button {
 }
 
 .addbtn {
-    float: right;
-    position: relative;
-    right: 3vmin;
-    bottom: 5vmin;
+    position: absolute;
     z-index: 9;
+    right: 0;
     padding: 1vmin 2vmin;
     border: none;
+    font-size: 5vmin;
     border-radius: 100%;
     background-color: rgb(0, 233, 233);
     color: rgb(255, 255, 255);
-    transform: translateY(-1.5vmin);
 }
 
 .addbtn:hover {
@@ -431,17 +433,17 @@ button {
 }
 
 .searchbar {
+    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: -6px;
-    gap: 1vmin;
+    margin: 1.5vmin 3vmin 0 3vmin; 
+    width: 95vw;
 }
 
 .searchbar div {
-    width: 7vmin;
+    width: 7.6vmin;
     margin: 0 0 0 1vmin;
-    transform: translateY(.5vmin);
     cursor: pointer;
     border: none;
     outline: none;
@@ -456,6 +458,8 @@ button {
 }
 
 .searchbar div img {
+    border: none;
+    outline: none;
     width: 100%;
     margin: 0;
 }
@@ -466,10 +470,10 @@ button {
     outline: none;
     font-size: 3vmin;
     font-family: sans-serif;
-    padding: .5vmin 1vmin;
+    padding: .8vmin;
     width: 0;
-    transform: translateX(-5vmin) scale(.01);
-    margin: 0px 0vmin 0px 8vmin;
+    transform: scale(.01);
+    margin: 0px 0vmin 0px 3vmin;
     transition-timing-function: linear;
     transition-property: width transform;
     transition: .5s;
@@ -480,13 +484,13 @@ button {
 }
 
 .showinput {
-    width: 80vw !important;
+    width: 86%;
     transition-timing-function: linear;
     transition: all .5s;
 }
 
 .showinput2 {
-    transform: scale(1) !important;
+    transform: translateY(-.6vmin) scale(1) !important;
     transition-timing-function: linear;
     transition: all .2s;
 }
@@ -496,4 +500,56 @@ button {
     transform: scale(.01);
     transition-timing-function: ease-in-out;
     transition: all .2s;
+}
+
+.loading{
+    position: absolute;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+}
+
+.loading *{
+    margin: 0;
+}
+
+.loading h1{
+  font-size: 8vmin;
+  color: #00b7ff;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.loading p{
+    height: 5vmin;
+    width: 5vmin;
+    border-radius: 100%;
+    border-top: .8vmin solid red;
+    border-bottom: .8vmin solid rgb(255, 102, 0);
+    border-left: .8vmin solid rgb(217, 255, 0);
+    border-right: .8vmin solid rgb(251, 0, 255);
+    animation: loader 2s linear infinite forwards;
+}
+
+@keyframes loader{
+    from{
+     transform: rotate(0deg);
+    }
+    to{
+  transform: rotate(360deg);
+    }
+}
+
+.loading.active{
+    transform: translateX(-100%);
+    transition: all .5s;
+    transition-timing-function: linear;
 }
