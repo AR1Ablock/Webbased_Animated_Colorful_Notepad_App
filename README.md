@@ -1,4 +1,4 @@
-![Screenshot from 2023-09-21 15-34-33](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/2b34829d-a1f7-4967-9446-c9aa7a075689)![Screenshot from 2023-09-21 15-12-05](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/b27687ad-448a-4044-b334-d1c5731b1675)# Webbased_Animated_Colorful_Notepad_App_Using_VUeJs.
+![Screenshot from 2023-09-21 15-12-05](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/b27687ad-448a-4044-b334-d1c5731b1675)# Webbased_Animated_Colorful_Notepad_App_Using_VUeJs.
 This is a beautifully animated and colourful simple notepad app. 
 it has follwing feautes.
 
