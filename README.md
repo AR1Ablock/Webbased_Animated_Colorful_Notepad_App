@@ -8,7 +8,6 @@ it has follwing feautes.
 ![Screenshot from 2023-09-21 15-12-05](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/f4d6063e-ea48-454a-b1e6-168bbaf1c819)
 
 * **Tap on Description to View in large page With Your Files Attachment And Rec.**
-* this one is with moblie view to show all things.
 ![Screenshot from 2023-09-21 15-34-10](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/786b8c18-415b-43f1-ab06-03d9e693cbdb)
 * This one is with pc view.
 ![Screenshot from 2023-09-21 15-34-33](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/e0ac419e-1a35-49ef-8a41-7a6d6ba2a195)
