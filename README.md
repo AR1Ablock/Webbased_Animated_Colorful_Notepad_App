@@ -1,15 +1,21 @@
-# Webbased_Animated_Colorful_Notepad_App_Using_VUeJs.
+![Screenshot from 2023-09-21 15-34-33](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/2b34829d-a1f7-4967-9446-c9aa7a075689)![Screenshot from 2023-09-21 15-12-05](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/b27687ad-448a-4044-b334-d1c5731b1675)# Webbased_Animated_Colorful_Notepad_App_Using_VUeJs.
 This is a beautifully animated and colourful simple notepad app. 
 it has follwing feautes.
 
-* **Create Notes With Title And Description.**
-![Screenshot from 2023-09-07 02-44-44](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/74e200fc-2844-40c4-b313-ef56402badb9)
+* **Create Notes With Title, Description.**
+* **It also support attachment of .txt,.sh, .html and .rc type files with pictures, audio and video Rec Attachment.**
+* **It also support deletion of attached audio,video and picture attachment.**
+![Screenshot from 2023-09-21 15-12-05](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/f4d6063e-ea48-454a-b1e6-168bbaf1c819)
 
-* **Tap on Description to View in large page.**
-![Screenshot from 2023-09-07 02-44-23](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/90705047-2142-4ee0-aef6-8047e87c0eef)
+* **Tap on Description to View in large page With Your Files Attachment And Rec.**
+* this one is with moblie view to show all things.
+![Screenshot from 2023-09-21 15-34-10](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/786b8c18-415b-43f1-ab06-03d9e693cbdb)
+* This one is with pc view.
+![Screenshot from 2023-09-21 15-34-33](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/e0ac419e-1a35-49ef-8a41-7a6d6ba2a195)
 
-* **Edit Existing Your Description and Title.**
-![Screenshot from 2023-09-07 02-45-26](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/b0c11308-8c98-4be5-9da1-498e4437b4ab)
+
+* **Edit Existing Your Description, Title, add or remove Files and Rec.**
+![Screenshot from 2023-09-21 15-18-27](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/61bf7edf-941c-466b-a207-a0b01c1aa90d)
 
 * **Delete Notes You like.**
 ![Screenshot from 2023-09-07 02-51-08](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/cd4e6186-c023-4480-929c-219f9b146364)
