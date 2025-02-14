@@ -5,7 +5,7 @@ A beautifully animated and colorful notepad app that lets you manage your notes 
 ## Features
 
 - **Create and Manage Notes:**
-  - Create notes with a title, description, and file attachments.
+  - Create notes with a title, description, file attachments and audio, video recording.
   - Edit existing notes to modify titles, descriptions, and attachments.
   - Delete notes as needed.
 
