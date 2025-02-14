@@ -18,6 +18,8 @@
 
 ![image](https://github.com/user-attachments/assets/e4558c53-0148-452a-a102-e040db294a66)
 
+![image](https://github.com/user-attachments/assets/7afd884d-0a54-426a-9140-bc7291bdf89b)
+
 
 A beautifully animated and colorful notepad app that lets you manage your notes effortlessly. It includes the following features:
 
