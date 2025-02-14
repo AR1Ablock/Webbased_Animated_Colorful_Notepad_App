@@ -1,37 +1,30 @@
-![Screenshot from 2023-09-21 15-12-05](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/b27687ad-448a-4044-b334-d1c5731b1675)# Webbased_Animated_Colorful_Notepad_App_Using_VUeJs.
-This is a beautifully animated and colourful simple notepad app. 
-it has follwing feautes.
+Web-Based Animated Colorful Notepad App Using Vue.js
 
-* **Create Notes With Title, Description.**
-* **It also support attachment of .txt,.sh, .html and .rc type files with pictures, audio and video Rec Attachment.**
-* **It also support deletion of attached audio,video and picture attachment.**
-![Screenshot from 2023-09-21 15-12-05](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/f4d6063e-ea48-454a-b1e6-168bbaf1c819)
+A beautifully animated and colorful notepad app that lets you manage your notes effortlessly. It includes the following features:
 
-* **Tap on Description to View in large page With Your Files Attachment And Rec.**
-* This one is with pc view.
-![Screenshot from 2023-09-21 15-34-33](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/e0ac419e-1a35-49ef-8a41-7a6d6ba2a195)
-![Screenshot from 2023-09-21 15-34-10](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/786b8c18-415b-43f1-ab06-03d9e693cbdb)
+Create and Manage Notes:
 
+Add notes with a title, description, and file attachments.
+Edit existing notes—modify titles, descriptions, and attachments.
+Delete notes as needed.
+Attachments & Media Support:
 
-* **Edit Existing Your Description, Title, add or remove Files and Rec.**
-![Screenshot from 2023-09-21 15-18-27](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/61bf7edf-941c-466b-a207-a0b01c1aa90d)
+Attach various file types (e.g., .txt, .sh, .html, .rc, PDF, Excel, PowerPoint, Word, Docs) along with pictures, audio, and video.
+Delete specific attachments like audio, video, or images as desired.
+Preview recorded audio (up to ~3 minutes) and video (up to 20 seconds) immediately after recording.
+Total attachment capacity is 5MB per note.
+User Interface & Interaction:
 
-* **Delete Notes You like.**
-![Screenshot from 2023-09-07 02-51-08](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/cd4e6186-c023-4480-929c-219f9b146364)
+Offline storage directly in your browser.
+Tap a note to view it in an expanded interface with all files and recordings.
+Resize and change the color of both the note creation and viewing interfaces.
+Supports smooth scrolling using arrow keys and the Escape key for navigation.
+Lazy load features and animations enhance performance.
+Supports concurrent note creation and editing, allowing you to switch between tasks seamlessly.
+Each note is generated in a unique, colorful style.
+Includes button sound effects for a more interactive experience.
+Fully responsive design for all screen sizes—from mobile to desktop.
+Note: As a beginner project, this reflects some of my earlier work. Feel free to use and modify it.
 
-* **Search a Specfic Note.**
-![Screenshot from 2023-09-07 02-43-50](https://github.com/AR1Ablock/Webbased_Animated_Colorful_Notepad_App/assets/78879680/6e0a9e08-fa8e-4fce-9b0f-4e9a7bbec478)
-
-* **It will generate individually Colorful notes.**
-
-* **Butttons have sound effects.**
-
-* **Lastly it is responsive from mini screen to large one.**
-
-Note:
-* **As a beginner this one is from few of my projects.**
-
-* **Feel free to use and modify.**
-
-**link to deployed app.**
+Link to the deployed app:
 https://colorfulnotepaddapp.web.app/
