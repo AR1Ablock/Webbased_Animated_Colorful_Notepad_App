@@ -6,7 +6,7 @@
 - npm install
 - npm run dev
 
-## Pictures
+## Pictures.
 
 ![image](https://github.com/user-attachments/assets/1b7fb791-aadc-4688-a8d9-62e543d8cda4)
 
