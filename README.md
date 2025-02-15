@@ -1,5 +1,13 @@
 # Web-Based Animated Colorful Notes App Using Vue.js
 
+
+## Usage:
+
+- npm install
+- npm run dev
+
+## Pictures
+
 ![image](https://github.com/user-attachments/assets/1b7fb791-aadc-4688-a8d9-62e543d8cda4)
 
 ![image](https://github.com/user-attachments/assets/4828796c-1d1b-45b2-9732-5b43da8aa745)
